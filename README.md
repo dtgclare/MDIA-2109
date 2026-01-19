@@ -4,3 +4,8 @@ Commit changes on this file..
 
 - [ ] list item
 - [ ] another list item
+
+## Which classes have I attended today?
+- [x] MDIA-2109
+- [ ] MDIA-2003
+- [x] COMM-2218
