@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(240, 171, 122);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #f5743d;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h2 {
+    color: beige;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 10px;
+}
+
+li::before {
+    content: "✓";
+    flex-shrink: 0;
+    color: #f5743d;
+}
+
+.post {
+    color: whitesmoke;
+    font-weight: bold;
+    border: 3px dashed #f5743d;
+}
+
+.cheer {
+    align-items: center;
+    margin-top: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cheer input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 300px;
+    border: 2px solid #e2a295;
+    border-radius: 4px;
+}
+
+.cheer button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #f5743d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ascii-art {
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1.1;
+    text-align: center;
+    opacity: 1;
+    margin: 3rem auto 1rem;
+    white-space: pre;
+    color: #592f1d;
+}
+
+.underline {
+    display: inline-block;
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid #f5743d;
+    font-style: italic;
+}
