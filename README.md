@@ -1,9 +1,10 @@
 # Welcome to MDIA-2109 repository
 
-Commit changes on this file..
+## Which colour do I like?
 
-- [ ] list item
-- [ ] another list item
+- [x] bright red
+- [ ] white
+- [x] teal
 
 ## Which classes have I attended today?
 
